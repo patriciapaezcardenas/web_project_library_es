@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta lang="es" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Proyecto Triple Ten Sprint 2." />
+    <meta name="keywords" content="BEM, HTML, CSS" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff"
+                >Los preferidos de nuestros lectores</a
+              >
+            </li>
+            <li>
+              <a class="nav__link" href="#">Eventos</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Conviértete en miembro</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              Bienvenidos a la biblioteca Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
+              y amplía tus conocimientos sobre desarrollo, o simplemente ven a
+              trabajar o estudiar con nosotros. ¡Este es un lugar genial para
+              estudiantes!
+            </p>
+          </div>
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+      <main class="content">
+        <section class="staff" id="staff">
+          <h2 class="staff__title">Los preferidos de nuestros lectores</h2>
+          <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Sapiens De animales a dioses</h3>
+                <p class="card__text">
+                  Este libro es una gran compendio de todo la prehistoria a
+                  nivel científico y cultural. Cuestiona los comportamientos del
+                  ser humano de nuestra era. Es fascinante para todo aquel que
+                  quiere aprender acerca de historia y antropología.
+                </p>
+                <p class="card__footer">Yuval Noah Harari</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Saga Millennium</h3>
+                <p class="card__text">
+                  Es un conjunto de series criminales que te atrapa de principo
+                  a fin por lo que no lleva un tiempo extenso de lectura. Los
+                  títulos imprescindibles en orden son: Los hombres que no
+                  amaban a las mujeres Stieg Larsson, La chica que soñaba con
+                  una cerilla y un bidón de gasolina y La reina en el palacio de
+                  las corrientes de aire.
+                </p>
+                <p class="card__footer">Stieg Larsson</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Potencial Oculto</h3>
+                <p class="card__text">
+                  Te explica que puedes lograr dominar un arte o conocimiento a
+                  partir de tu propio esfuerzo. La creación de sistemas que nos
+                  permitan progresar día a día es la clave.
+                </p>
+                <p class="card__footer">Adam M. Grtant.</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  Armas de destrucción matemática: Cómo el Big Data aumenta la
+                  desigualdad y amenaza la democracia
+                </h3>
+                <p class="card__text">
+                  Vivimos en una era dominada por algoritmos que deciden
+                  aspectos clave de nuestras vidas: educación, trabajo,
+                  créditos, salud o incluso libertades. Aunque se presentan como
+                  sistemas imparciales, en realidad son opacos, sin regulación y
+                  difíciles de cuestionar, lo que refuerza desigualdades y
+                  discrimina a los más vulnerables. Por ejemplo, un estudiante
+                  puede quedar sin acceso a un préstamo solo por vivir en cierto
+                  barrio, perpetuando la pobreza.
+                </p>
+                <p class="card__footer">Cathy O'Neil</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
