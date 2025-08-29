@@ -53,14 +53,13 @@
   font-weight: 500;
   max-width: 635px;
   margin-top: 128px;
-  margin-bottom: 32px;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
   max-width: 515px;
-  margin: 0;
+  margin: 32px 0 0;
 }
 
 .header__image {
@@ -112,7 +111,7 @@
 
 .staff__cards {
   max-width: 760px;
-  margin: 68px auto auto;
+  margin: 68px auto 0;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
