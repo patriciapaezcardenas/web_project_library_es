@@ -60,6 +60,8 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 515px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -107,6 +109,7 @@
   font-weight: 400;
   margin: 0 0 68px;
   color: #ffffff;
+  margin-bottom: 68px;
 }
 
 .staff__cards {
@@ -151,9 +154,8 @@
 }
 
 .card__footer {
-  margin: 0 auto;
+  margin-top: auto;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  margin-top: auto;
 }
