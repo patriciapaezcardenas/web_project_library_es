@@ -289,3 +289,7 @@
 .person__caption_position_mitchell {
   bottom: 82px;
 }
+
+.person_direction_reverse {
+  flex-direction: column-reverse;
+}
