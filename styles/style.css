@@ -347,11 +347,10 @@
   background-color: #1f1f1f;
   position: relative;
   color: white;
-  padding: 0;
+  padding: 60px 80px;
 }
 
 .footer__columns {
-  margin: 60px 80px 0 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
