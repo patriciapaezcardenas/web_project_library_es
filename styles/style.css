@@ -346,11 +346,11 @@
   flex-direction: column;
   background-color: #1f1f1f;
   position: relative;
+  color: white;
 }
 
 .footer__columns {
   margin: 60px 80px 60px 80px;
-  color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -358,14 +358,14 @@
 
 .footer__column_content_hours {
   margin-left: auto;
-  margin-right: 80px;
 }
 
 .footer__column_content_social {
+  margin-left: 80px;
 }
 
 .footer__logo {
-  width: 50px;
+  width: 58px;
   height: 80px;
 }
 
@@ -386,18 +386,15 @@
 }
 
 .footer__column-link {
-  color: white;
   text-decoration: none;
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 16px;
 }
 
 .footer__copyright {
   padding: 0;
-  color: white;
   margin: 100px auto 60px 80px;
 }
